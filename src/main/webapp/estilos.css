@@ -1,0 +1,85 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22/09/2022, 11:09:19 AM
+    Author     : Familia Niño
+*/
+
+body{
+    width: 100%;
+    height: 100%;
+     background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#campos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#general{
+    width: 50%;
+}
+section{
+    border-color: #c6c6c6;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#genero{
+    display: flex;
+}
+form{
+    width: 100%;
+    height: 100vw;
+    background-color: white;
+}
+label{
+    font-family: 'roboto';
+    margin-bottom: 3px;
+}
+
+input{
+    background: none;
+    color: #c6c6c6;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 40%;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+input:focus{ 
+    outline: none;
+    color: #5e5d5d;
+}
+
+button{
+    font-family: 'roboto';
+    background: #4568DC;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: none;
+    display: block;
+    width: 40%;
+    margin: 10px auto;
+    color: #fff;
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+h2{
+    font-family: 'roboto';
+}
